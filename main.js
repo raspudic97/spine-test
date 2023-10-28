@@ -12,7 +12,7 @@ async function setup() {
 
   baseAnimations = await loadBaseAnimation();
 
-  PIXI.Assets.load("assets/symbol/skeleton.json").then(onAssetsLoaded);
+  PIXI.Assets.load("symbol/skeleton.json").then(onAssetsLoaded);
 }
 
 function onAssetsLoaded(res) {
@@ -44,7 +44,7 @@ function onAssetsLoaded(res) {
 }
 
 async function loadBaseAnimation() {
-  return await PIXI.Assets.load("assets/anchor/anchor.json").then((json) => {
+  return await PIXI.Assets.load("anchor/anchor.json").then((json) => {
     return new Spine(json.spineData).spineData.animations;
   });
 }
