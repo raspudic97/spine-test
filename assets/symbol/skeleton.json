@@ -1,0 +1,19 @@
+{
+  "skeleton": {
+    "hash": "GWsT36MxH8k",
+    "spine": "4.1.24",
+    "images": "/Users/goransimic/Library/CloudStorage/GoogleDrive-simic.goran@nsoft.com/My Drive/NSoft - Design GS/Slot_Design/WebGL Export/SBBet/SBBbet-NewAndOld",
+    "audio": ""
+  },
+  "bones": [{ "name": "root" }],
+  "slots": [{ "name": "symbol_0", "bone": "root", "attachment": "symbol_0" }],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "symbol_0": { "symbol_0": { "width": 198, "height": 210 } }
+      }
+    }
+  ],
+  "animations": { "animation": {} }
+}
