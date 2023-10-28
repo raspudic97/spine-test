@@ -16,15 +16,13 @@ async function setup() {
 }
 
 function onAssetsLoaded(res) {
-  // create a spine boy
   const symbolSpine = new Spine(res.spineData);
 
-  //Add base animations
   symbolSpine.spineData.animations = [
     ...symbolSpine.spineData.animations,
     ...baseAnimations,
   ];
-  // set the position
+
   symbolSpine.x = app.screen.width / 2;
   symbolSpine.y = app.screen.height / 2;
 
@@ -38,7 +36,6 @@ function onAssetsLoaded(res) {
     allAnimations.push(animation.name);
   }
 
-  // Press the screen to play a random animation
   app.stage.on("pointerdown", () => {
     let animation = allAnimations[1];
 
