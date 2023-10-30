@@ -1,11 +1,11 @@
 {
   "skeleton": {
-    "hash": "juwSYxPxAPc",
+    "hash": "1MuT1BYn9a0",
     "spine": "4.1.24",
-    "x": -102.69,
-    "y": -114.03,
-    "width": 203.37,
-    "height": 215.06,
+    "x": -102.68,
+    "y": -114.02,
+    "width": 203.36,
+    "height": 215.04,
     "images": "",
     "audio": ""
   },
@@ -37,6 +37,11 @@
       }
     }
   ],
+  "events": {
+    "bonus_hit": {
+      "audio": "bonus_hit.mp3"
+    }
+  },
   "animations": {
     "animation_0": {
       "bones": {
@@ -92,7 +97,13 @@
             }
           ]
         }
-      }
+      },
+      "events": [
+        {
+          "time": 0.3667,
+          "name": "bonus_hit"
+        }
+      ]
     },
     "animation_2": {
       "bones": {
@@ -120,7 +131,13 @@
             }
           ]
         }
-      }
+      },
+      "events": [
+        {
+          "time": 0.3667,
+          "name": "bonus_hit"
+        }
+      ]
     }
   }
 }
